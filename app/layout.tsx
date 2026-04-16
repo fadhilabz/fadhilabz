@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Serif, Manrope } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -38,6 +39,8 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Script src="https://pl29163723.profitablecpmratenetwork.com/55/c2/04/55c204d547e57806242c6cf897505e81.js" strategy="afterInteractive" />
+        <Script src="https://pl29163725.profitablecpmratenetwork.com/3e/d7/81/3ed781b9c218aa46fd96ce304662ccbe.js" strategy="afterInteractive" />
       </body>
     </html>
   );
